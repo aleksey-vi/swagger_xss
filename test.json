@@ -1,7 +1,7 @@
 {
-    "url": "https://raw.githubusercontent.com/aleksey-vi/swagger_xss/refs/heads/main/test2.yaml",
+    "url": "https://raw.githubusercontent.com/aleksey-vi/swagger_xss/refs/heads/main/test.yaml",
     "urls": [{
-        "url": "https://raw.githubusercontent.com/aleksey-vi/swagger_xss/refs/heads/main/test2.yaml",
+        "url": "https://raw.githubusercontent.com/aleksey-vi/swagger_xss/refs/heads/main/test.yaml",
         "name": "Foo"
     },{
         "url": "https://raw.githubusercontent.com/aleksey-vi/swagger_xss/refs/heads/main/test2.yaml",
